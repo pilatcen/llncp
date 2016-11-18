@@ -37,7 +37,7 @@ This utility consist from 3 binaries: llncp-server, lncp-clientd, llncp
 		'password' is used for server-client authentication.
 		'chroot_dir' is optional. All incomming files can be chrooted in this chroot directory.
 
-**llncp-clientd** daemon running on the client machine. Is connected to llncp-server and *llncp* conects to this daemon
+**llncp-clientd** is daemon running on the client machine. Is connected to llncp-server and *llncp* conects to this daemon
 
 	./llncp-clientd server_address server_port logfile [password]	
 		'server_address' is the IP address of the server where you want send your files.
@@ -45,7 +45,7 @@ This utility consist from 3 binaries: llncp-server, lncp-clientd, llncp
 		'logfile' is a file used for log output.
 		'password' is used for server-client authentication. Password can be written as the 3rd argument; If not provided, the program will ask the password after its execution.
 
-**llncp**
+**llncp** is command for copy files over from client to server
 
 	./llncp server_address source destination.
 		'server_address' is server IP/hostname with running LLCP server.
