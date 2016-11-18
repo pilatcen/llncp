@@ -1,0 +1,14 @@
+Dependencies on Debian GNU/Linux:
+	build-essential
+
+
+Dependencies on Solaris:
+	developer-gnu
+	gcc45
+
+
+
+Compilation:
+	make
+
+
